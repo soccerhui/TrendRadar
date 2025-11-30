@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug main.py",
+            "type": "python",
+            "request": "launch",
+            // 明确指定要运行的文件路径，位于工作区根目录下的 main.py
+            "program": "${workspaceFolder}/main.py", 
+            // 如果您的 main.py 需要命令行参数，可以在这里添加：
+            // "args": ["arg1", "arg2"], 
+            "console": "integratedTerminal",
+            "justMyCode": true 
+        },
+        {
+            "name": "Run main.py (No Debug)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            // 关键：将 "noDebug" 设置为 true，表示仅运行，不进入调试模式
+            "noDebug": true 
+        }
+    ]
+}
