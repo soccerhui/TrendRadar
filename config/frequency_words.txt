@@ -42,7 +42,6 @@ Microsoft
 英伟达
 NVIDIA
 黄仁勋
-
 AMD
 
 谷歌
